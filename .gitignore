@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+api_log.txt
+
+# Large datasets (not needed for deployment)
+emails.csv
+emails_sample.csv
+*.csv
+
+# Model files (keep the trained model)
+# svm_phishing_model.pkl should be included
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
